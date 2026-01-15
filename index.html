@@ -1,204 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan's Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        
-        header {
-            background-color: #333;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        header p {
-            font-size: 1.1rem;
-            color: #bbb;
-        }
-        
-        nav {
-            background-color: #444;
-            padding: 1rem;
-            text-align: center;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-weight: bold;
-        }
-        
-        nav a:hover {
-            color: #61dafb;
-        }
-        
-        .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        
-        section {
-            background-color: white;
-            margin-bottom: 2rem;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        h2 {
-            color: #333;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #61dafb;
-            padding-bottom: 0.5rem;
-        }
-        
-        .project {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .project:last-child {
-            border-bottom: none;
-        }
-        
-        .project h3 {
-            color: #61dafb;
-            margin-bottom: 0.5rem;
-        }
-        
-        .project p {
-            margin-bottom: 0.5rem;
-        }
-        
-        .tech {
-            background-color: #f0f0f0;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            display: inline-block;
-            margin-right: 0.5rem;
-            font-size: 0.9rem;
-            color: #555;
-        }
-        
-        .links {
-            margin-top: 0.5rem;
-        }
-        
-        .links a {
-            color: #61dafb;
-            text-decoration: none;
-            margin-right: 1rem;
-            font-weight: bold;
-        }
-        
-        .links a:hover {
-            text-decoration: underline;
-        }
-        
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1rem;
-        }
-        
-        .skill-item {
-            background-color: #f0f0f0;
-            padding: 1rem;
-            border-radius: 4px;
-            text-align: center;
-        }
-        
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 2rem;
-        }
-        
-        footer a {
-            color: #61dafb;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
     <header>
         <h1>Ethan Eye</h1>
         <p>Software Developer | Computer Science Student</p>
     </header>
-    
+
     <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
-    
+
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! My name is Ethan. I'm from Fort Collins, Colorado, and currently attending Colorado State University.</p>
+            <p>Hello! My name is Ethan. I'm from Fort Collins, Colorado, and currently attending Colorado State
+                University.</p>
             <p>I'm pursuing a Bachelor's degree in Computer Science, and I'm very passionate about the field.</p>
             <p>I love being creative, working with others, and challenging myself to learn something new every day.</p>
         </section>
-        
+
         <section id="projects">
             <h2>Projects</h2>
-            
+
             <div class="project">
-                <h3>Project 1: Your Project Name</h3>
-                <p>A brief description of what this project does and what problem it solves. Mention the key features and technologies used.</p>
+                <h3>Project 1: X86 Assembly Byte Jumper Game</h3>
+                <p>A brief description of what this project does and what problem it solves. Mention the key features
+                    and technologies used.</p>
                 <div>
-                    <span class="tech">JavaScript</span>
-                    <span class="tech">React</span>
-                    <span class="tech">CSS</span>
+                    <span class="tech">X86</span>
+                    <span class="tech">Masm</span>
+                    <span class="tech">Low level programming</span>
                 </div>
                 <div class="links">
-                    <a href="https://github.com/yourname/project1">GitHub Repo</a>
-                    <a href="https://your-project-demo.com">Live Demo</a>
+                    <a href="https://github.com/">GitHub Repo</a>
+                    <a href="https://">Live Demo</a>
                 </div>
             </div>
-            
+
             <div class="project">
                 <h3>Project 2: Another Project</h3>
-                <p>Describe what you built here. What was the challenge? What did you learn? Keep it concise and highlight the most impressive aspects.</p>
+                <p>Describe what you built here. What was the challenge? What did you learn? Keep it concise and
+                    highlight the most impressive aspects.</p>
                 <div>
                     <span class="tech">Python</span>
                     <span class="tech">Flask</span>
                     <span class="tech">SQL</span>
                 </div>
                 <div class="links">
-                    <a href="https://github.com/yourname/project2">GitHub Repo</a>
-                    <a href="https://your-project-demo.com">Live Demo</a>
+                    <a href="https://github.com/">GitHub Repo</a>
+                    <a href="https://">Live Demo</a>
                 </div>
             </div>
-            
+
             <div class="project">
                 <h3>Project 3: Your Third Project</h3>
-                <p>Another project description. What makes this one special? What technologies did you use? What did you accomplish?</p>
+                <p>Another project description. What makes this one special? What technologies did you use? What did you
+                    accomplish?</p>
                 <div>
                     <span class="tech">Java</span>
                     <span class="tech">Spring</span>
@@ -209,7 +81,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="skills">
             <h2>Skills</h2>
             <div class="skills">
@@ -223,20 +95,22 @@
                 <div class="skill-item">APIs</div>
             </div>
         </section>
-        
+
         <section id="contact">
             <h2>Contact</h2>
-            <p>Feel free to reach out! I'm always interested in learning about new opportunities and connecting with other developers.</p>
+            <p>Feel free to reach out! I'm always interested in learning about new opportunities and connecting with
+                other developers.</p>
             <p>
-                <strong>Email:</strong>ethaneye02@gmail.com<br>
-                <strong>GitHub:</strong> <a href="https://github.com/EthanEye">github.com/yourname</a><br>
-                
+                <strong>Email:</strong> ethaneye02@gmail.com<br>
+                <strong>GitHub:</strong> <a href="https://github.com/EthanEye">github.com/EthanEye</a><br>
+
             </p>
         </section>
     </div>
-    
+
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 Ethan Eye. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
