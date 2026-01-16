@@ -75,7 +75,7 @@ h2 {
 .project-pic {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 0;
     margin-bottom: 1rem;
 }
 
