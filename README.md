@@ -1,1 +1,4 @@
-Read me
+Ethans github portfolio website 
+
+https://ethaneye.github.io/
+
