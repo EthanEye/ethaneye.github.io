@@ -1,2 +1,4 @@
-#Ethans github portfolio website#
+Ethans github portfolio website 
+
+https://ethaneye.github.io/
 
