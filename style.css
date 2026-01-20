@@ -77,7 +77,9 @@ h2 {
     width: 430px;
     height: 240px;
     border-radius: 0;
-    margin: 0 auto 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .profile-pic {
     display: block;
@@ -85,7 +87,6 @@ h2 {
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
-    flex-grow: 1
 }
 .profile-container {
     display: flex;
