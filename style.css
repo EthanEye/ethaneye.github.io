@@ -78,21 +78,14 @@ h2 {
     height: 240px;
     border-radius: 0;
     margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 .profile-pic {
     display: block;
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    object-fit: cover;
+    margin-bottom: 1rem;
 }
-.profile-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    }
 
 .project:last-child {
     border-bottom: none;
