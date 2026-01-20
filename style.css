@@ -85,7 +85,9 @@ h2 {
     height: 320px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    flex-grow: 1
+    object-fit: cover;
+    overflow: hidden;
+    
 }
 
 .project:last-child {
