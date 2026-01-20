@@ -81,10 +81,11 @@ h2 {
 }
 .profile-pic {
     display: block;
-    width: 430px;
-    height: 240px;
-    border-radius: 50;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     margin-bottom: 1rem;
+    object-fit: cover;
 }
 
 .project:last-child {
