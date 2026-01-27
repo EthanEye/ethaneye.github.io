@@ -79,6 +79,13 @@ h2 {
     border-radius: 0;
     margin-bottom: 1rem;
 }
+.project-pic2 {
+    display: block;
+    width: 500px;
+    height: 700px;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
 .profile-pic {
     display: block;
     width: 320px;
